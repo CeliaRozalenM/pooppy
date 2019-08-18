@@ -1,0 +1,48 @@
+.help {
+  font-family: var(--font);
+  text-align: left;
+  button {
+    font-size: 16px;
+    width: 100%;
+    height: 65px;
+    text-align: left;
+    padding: 10px 20px;
+    background: transparent;
+    display: table;
+    border-bottom: 1px solid var(--dark-gray);
+    transition: .5 color;
+    outline: none; 
+  }
+  .arrow-green{
+    transform: rotate(90deg);
+    &.down{
+      transform: rotate(-90deg);
+    }
+  }
+  div {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    p{
+      padding: 0 20px 15px 20px;
+    }
+  }
+  .question {
+    color: var(--blue);
+    border-bottom: 0;
+    &-content {
+      opacity: 1;
+      height: auto;
+      border-bottom: 1px solid var(--dark-gray);
+    }
+  }
+  .contact{
+    color: var(--blue);
+    font-weight: var(--font-semibold);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    span{
+      padding-left: 2%;
+    }
+  }
+}

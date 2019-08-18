@@ -1,0 +1,34 @@
+.binFavs {
+  font-family: var(--font) !important;
+  text-transform: inherit;
+  border-bottom: 1px solid var(--dark-gray);
+  display: table;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  p {
+    width: 75%;
+  }
+  .deletedBin {
+    width: 20px;
+    margin-right: 2%;
+  }
+  .bin-list-bin {
+    width: 30px;
+    margin-right: 5%;
+    margin-left: 2%;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}

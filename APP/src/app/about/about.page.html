@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar class="title">
+    <ion-buttons slot="start">
+      <button class="backArrow" (click)="backClicked()">
+        <img src="../../assets/img/back-arrow.svg">
+      </button>
+    </ion-buttons>
+    <ion-title>Acerca de</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="about">
+  <a routerLink="/menu/termsconditions">
+    <button>Términos y Condiciones
+      <img class="arrow-green" src="../../assets/img/green-arrow.svg">
+    </button>
+  </a>
+  <a routerLink="/menu/privacypolicy">
+    <button>Política de Privacidad
+      <img class="arrow-green" src="../../assets/img/green-arrow.svg">
+    </button>
+  </a>
+  <a routerLink="/menu/team">
+    <button>Equipo
+      <img class="arrow-green" src="../../assets/img/green-arrow.svg">
+    </button>
+  </a>
+</ion-content>

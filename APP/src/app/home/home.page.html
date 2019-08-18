@@ -1,0 +1,10 @@
+<ion-content>
+    <ion-menu-toggle class="burgerMenu">
+        <img src='../assets/icon/button-menu.svg'>
+    </ion-menu-toggle>
+  <div id="map">
+  </div>
+</ion-content>
+<app-selected-bin [selectedBinId]= "thisBinId" (bagsChangedEvent)="getBinData()"></app-selected-bin>
+
+
