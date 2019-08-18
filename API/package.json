@@ -9,7 +9,8 @@
     "express": "^4.16.4",
     "jwt-simple": "^0.5.5",
     "moment": "^2.24.0",
-    "mongoose": "^5.4.20"
+    "mongoose": "^5.4.20",
+    "lodash": ">=4.17.13"
   },
   "devDependencies": {},
   "scripts": {
