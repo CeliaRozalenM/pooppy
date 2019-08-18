@@ -44,7 +44,13 @@
     "core-js": "^2.5.4",
     "ionic-angular": "^3.6.1",
     "rxjs": "^6.3.3",
-    "zone.js": "~0.8.29"
+    "zone.js": "~0.8.29",
+    "lodash.mergewith": ">=4.6.2",
+    "lodash": ">=4.17.13",
+    "handlebars": ">=4.1.2",
+    "js-yaml": ">=3.13.1",
+    "fstream": ">=1.0.12",
+    "tar": ">=2.2.2"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.12.3",
