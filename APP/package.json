@@ -47,7 +47,7 @@
     "zone.js": "~0.8.29",
     "lodash.mergewith": ">=4.6.2",
     "lodash": ">=4.17.13",
-    "handlebars": ">=4.1.2",
+    "handlebars": ">=4.3.0",
     "js-yaml": ">=3.13.1",
     "fstream": ">=1.0.12",
     "tar": ">=2.2.2"
