@@ -55,23 +55,23 @@ class UserProvider {
 
   login(req, res) {
     userModel.find({ email: req.body.user.email }, (err, user) => {
-      console.log('Recibe' + user);
+      console.log('User info:' + user);
       if (err) return res.status(500).send({ message: err })
       if (user.length === 0 || user == null) {
         return res.status(200).send(new userModel());
       } else {
-        console.log("Usuario en login " + user[0]);
+        console.log("User in login " + user[0]);
         return res.status(200).send(user[0]);
         /*      
-             bcrypt.compare(req.body.password, user[0].password, function (err, check) {
+             bcrypt.compare(req.body.password, user[0].password, function (erzr, check) {
                console.log(user[0].password);
                if (check) {
                  return res.status(200).send({
-                   message: "Te has logado correctamente",
+                   message: "Correct login",
                    token: service.createToken(user)
                  })
                } else {
-                 return res.status(200).send({ message: "Usuario o clave incorrecta" })
+                 return res.status(200).send({ message: "Incorrect user or password" })
                }
              });
       }) */

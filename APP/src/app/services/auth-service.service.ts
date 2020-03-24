@@ -33,11 +33,10 @@ export class AuthService {
 
   createUser(user: User ) {
     this.router.navigate(['/menu/home']);
-    /* cuando esté hecho el backend, creará usuario.  */
   }
 
   logOut() {
-    /* ESTA PARTE HAY QUE DESCOMENTARLA CUANDO CONECTEMOS CON LA BBDD
+    /*
     this.AFauth.auth.signOut().then(() => {
       this.router.navigate(['/login']);
     }); */

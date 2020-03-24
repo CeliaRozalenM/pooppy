@@ -4,13 +4,15 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "bcrypt": "^3.0.5",
+    "bcrypt": "^4.0.1",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "jwt-simple": "^0.5.5",
+    "lodash": ">=4.17.13",
+    "minimist": ">=1.2.2",
     "moment": "^2.24.0",
     "mongoose": "^5.4.20",
-    "lodash": ">=4.17.13"
+    "nodemon": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {
