@@ -8,7 +8,7 @@ A participatory mobile APP made with **Ionic, MongoDB and Express** where you ca
 
 ## Needs
 
-- As a pet owner, find bins near me wich contains poo bags.
+- As a pet owner, find bins near me which contains poo bags.
 
 ## Goals
 
@@ -38,11 +38,11 @@ A participatory mobile APP made with **Ionic, MongoDB and Express** where you ca
 > Make sure you have globally installed: **Node**, **NPM**, **Ionic CLI** and **MongoDB**. And if you want to automatically restart your server: **Nodemon**
 
 1. Clone repository or download
-3. **Import** the mongo **database** *pooppyDB.json*
-6. Start the **MongoDB server**. Easily done in windows by opening in your pc the directory *C:\Program Files\MongoDB\Server\[version]\bin* [Your mongodb installed location] and executing the file *mongod*. The default port for mongod is 27017
-2. Install **NPM** packages `npm i` in *APP* and *API* directories
-4. In the directory *APP* run `ionic serve` for a **ionic** dev server
-5. Resize your browser window to get a mobile device resolution
+2. **Import** the mongo **database** *pooppyDB.json*
+3. Start the **MongoDB server**. Easily done in windows by opening in your pc the directory *C:\Program Files\MongoDB\Server\[version]\bin* [Your mongodb installed location] and executing the file *mongod*. The default port for mongod is 27017
+4. Install **NPM** packages `npm i` in *APP* and *API* directories
+5. In the directory *APP* run `ionic serve` for a **ionic** dev server
+6. Resize your browser window to get a mobile device resolution
 7. In the directory *API* run `node main.js` to **connect to the database** or `nodemon main.js` if you want to restart your server when your code changes
 8. Access with the mail: test@test.com and password: test
 9. Enjoy 😊
